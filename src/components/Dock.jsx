@@ -64,7 +64,7 @@ const Dock = () => {
                             data-tooltip-delay-show={150}
                             disabled={!canOpen}
                             onClick={() => toggleApp({id, canOpen})}>
-                        <img src={`/images/${icon}`} alt="name" loading="lazy" className={canOpen ? "" : "opacity-60"} />
+                        <img src={`/images/${icon}`} alt={name} loading="lazy" className={canOpen ? "" : "opacity-60"} />
                     </button>
                 </div>
             ))}
