@@ -49,12 +49,6 @@ const dockApps = [
         canOpen: true,
     },
     {
-        id: "photos",
-        name: "Gallery", // was "Photos"
-        icon: "photos.png",
-        canOpen: true,
-    },
-    {
         id: "contact",
         name: "Contact", // or "Get in touch"
         icon: "contact.png",
@@ -140,53 +134,6 @@ const socials = [
     },
 ];
 
-const photosLinks = [
-    {
-        id: 1,
-        icon: "/icons/gicon1.svg",
-        title: "Library",
-    },
-    {
-        id: 2,
-        icon: "/icons/gicon2.svg",
-        title: "Memories",
-    },
-    {
-        id: 3,
-        icon: "/icons/file.svg",
-        title: "Places",
-    },
-    {
-        id: 4,
-        icon: "/icons/gicon4.svg",
-        title: "People",
-    },
-    {
-        id: 5,
-        icon: "/icons/gicon5.svg",
-        title: "Favorites",
-    },
-];
-
-const gallery = [
-    {
-        id: 1,
-        img: "/images/gal1.png",
-    },
-    {
-        id: 2,
-        img: "/images/gal2.png",
-    },
-    {
-        id: 3,
-        img: "/images/gal3.png",
-    },
-    {
-        id: 4,
-        img: "/images/gal4.png",
-    },
-];
-
 export {
     navLinks,
     navIcons,
@@ -194,8 +141,6 @@ export {
     blogPosts,
     techStack,
     socials,
-    photosLinks,
-    gallery,
 };
 
 const WORK_LOCATION = {
@@ -350,25 +295,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
-        },
-        {
-            id: 2,
-            name: "casual-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
-        },
-        {
-            id: 3,
-            name: "conference-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/me.png",
         },
         {
             id: 4,
@@ -378,12 +305,12 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/me.png",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Vach — a web-dev-minded tech enthusiast who loves turning ideas into clean, functional, and thoughtful digital experiences.",
+                "I’m big on software development, crypto, and self-growth — constantly learning, building, and improving.\n" +
+                "When I'm not coding, you’ll catch me deep in a book (usually one of the 3–4 I buy each month) or diving into networking labs for my CCNA journey.",
+                "I like things structured, efficient, and meaningful — whether it’s my study plan, my projects, or the stories I tell on my YouTube channel 🎯📚",
             ],
         },
     ],
