@@ -102,21 +102,37 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js"],
+        items: ["React", "Next.js", "JS (ES6+)"],
     },
     {
         category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["Tailwind", "Sass"],
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub", "MongoDB"],
+        items: ["Git", "GitHub", "VS Code"],
     },
     {
-        category: "Networking",
-        items: ["Routing", "Subneting", "VLAN", "WLAN"],
+        category: "Routing",
+        items: ["Routing", "Subnetting"],
+    },
+    {
+        category: "Net – LAN",
+        items: ["VLANs", "Trunking", "Inter-VLAN"],
+    },
+    {
+        category: "Switching",
+        items: ["STP/RSTP", "EthChan"],
+    },
+    {
+        category: "IP - Services",
+        items: ["NAT/PAT", "ACLs"],
     },
 ];
+
+
+
+
 
 const socials = [
     {
